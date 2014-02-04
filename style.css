@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+	position:relative;
+	height:300px;
+	width:300px;
+	background-color: #FFC400;
+	border:2px solid black;
+	margin-left: 50px;
+	margin-top: 50px
+}
+section section {
+	position:absolute;
+	height:70px;
+	width:170px;
+	background-color: #FF75ED;
+	border:2px solid black;
+	margin-top: 180px;
+	margin-left: 10px;
+}
+header {
+	position: absolute;
+	height:50px;
+	width:50px;
+	background-color: #0095FF;
+	border:2px solid black;
+	margin-top: 20px;
+	margin-left: 20px;	
+}
+nav {
+	position: absolute;
+	height:80px;
+	width:150px;
+	background-color: #B5FFB8;
+	border:2px solid black;
+	margin-top:50px;
+	margin-left:120px;
+}
+aside {
+	position: absolute;
+	height:140px;
+	width:60px;
+	background-color: #FF7575;
+	border:2px solid black;
+	margin-top:150px;
+	margin-left:220px;	
+}
